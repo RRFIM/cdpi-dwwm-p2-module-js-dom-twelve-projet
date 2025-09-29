@@ -42,7 +42,7 @@ iframe{
     color: black;
     background-color: rgb(231, 231, 231);
     width:20ch;
-    transition:width 0.1s;
+    transition:width 1s;
 }
 .abonne{
     

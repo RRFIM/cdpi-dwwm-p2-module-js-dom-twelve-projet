@@ -19,12 +19,12 @@ let is_subbed = false;
 // 4. J'ecoute le clique sur l'icone smiley
 emoji.addEventListener("click",function(){
     // on click do something...
-   emoji.classList.remove("fa-solid");
-   emoji.classList.add("face-meh");
+   emoji.classList.add("happy");
    
 })
 // 5. J'ecoute l'evenemment click sur le bouton ABONNEZ
 sub.addEventListener("click",function(){
     sub.classList.toggle("abonne");
     sub.querySelector("p").textContent = "abonne!"
+
 })
