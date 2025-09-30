@@ -19,7 +19,6 @@ all_switches.forEach(function (Swtch) {
 function updateSwitch() {
     all_switches.forEach(function (switch_elem) {
 
-        switch_elem.classList.toggle("darkmode");
         switch_elem.querySelector("i").classList.toggle("fa-moon");
         console.log("moon");
     });
@@ -28,7 +27,7 @@ function updateSwitch() {
 
 function updateAllTags() {
     all_elements.forEach(function (element) {
-        element.classList.toggle("darkmode")
+        element.classList.toggle("darkmode");
     })
 }
 
