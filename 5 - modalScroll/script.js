@@ -3,6 +3,7 @@
  * Scroll Event
  */
 // 1. Je recupere la section à partir de laquelle je veux faire apparaite la modale
+const section2 = document.querySelector(".two");
 
 // 2. Je recupere la modale
 const modal = document.querySelector(".modal");
@@ -25,7 +26,7 @@ function onScrollDisplayModal(){
             modal.style.display = "flex";
         }
     }
-
+    
 // 5. Je fais disparaite la modale au clique sur la croix
 function dissapear(){
     modalQuit.addEventListener("click", function(){
